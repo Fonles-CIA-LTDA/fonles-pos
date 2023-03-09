@@ -1,7 +1,15 @@
-# Fonles for Restaurant: Tu solución de punto de venta gratuito y de código abierto
-Si estás buscando un sistema de punto de venta para tu restaurante que te permita generar facturas electrónicas en tu país, ¡Fonles for Restaurant es la solución que buscas!
+# FonlesPOS: Tu solución de punto de venta gratuito y de código abierto
+Si estás buscando un sistema de punto de venta que te permita generar facturas electrónicas en tu país, ¡FonlesPOS es la solución que buscas!
 
-Este proyecto de código abierto y gratuito es patrocinado por la empresa **Fonles CIA.LTDA.** y está diseñado específicamente para satisfacer las necesidades de los restaurantes en América Latina. Con Fonles for Restaurant, puedes administrar fácilmente tu inventario, realizar ventas, generar informes y mucho más, todo desde una sola plataforma.
+Este proyecto de código abierto y gratuito es patrocinado por la empresa **Fonles CIA. LTDA.** y está diseñado específicamente para satisfacer las necesidades de los negocios en América Latina.
+
+En FonlesPOS, contamos con una amplia variedad de distribuciones diseñadas específicamente para satisfacer las necesidades de diferentes tipos de negocios.
+
+Si eres propietario de un restaurante, te ofrecemos FonlesPOS for Restaurants, una solución integral que te permitirá gestionar tu negocio de manera eficiente y aumentar tus ventas. Si eres dueño de un negocio en el sector médico, FonlesPOS for Medicine es la opción ideal para ti, con características y herramientas especializadas para mejorar la gestión de tu clínica o consultorio.
+
+Pero si lo que buscas es una solución más general, también contamos con FonlesPOS General, una distribución versátil que se adapta a cualquier tipo de negocio. En resumen, ¡en FonlesPOS tenemos todo lo que necesitas para hacer crecer tu negocio!
+
+## FonlesPOS for Restaurants
 
 ## Características destacadas
 - Sistema de punto de venta intuitivo y fácil de usar
@@ -25,9 +33,14 @@ Fonles for Restaurant es la mejor opción para los restaurantes que buscan un si
 Además, nuestro compromiso con el código abierto significa que puedes personalizar y mejorar el software para satisfacer tus necesidades específicas sin tener que pagar costosas licencias de software.
 
 ##  ¿Cuándo y cómo puedo obtener Fonles for Restaurant?
-Fonles for Restaurant estara disponible para su descarga el 15 de mayo en nuestra página web o el código fuente en nuestro GitHub.
+Fonles for Restaurant estara disponible para su descarga el 15 de mayo en nuestra página web o pueden obtener el código fuente en nuestro GitHub.
 
-¡Descarga Fonles for Restaurant hoy y lleva tu restaurante al siguiente nivel!
+
+## ¡Pronto estarán disponibles todas nuestras demás distribuciones!
+
+- FonlesPOS General
+- FonlesPOS for Medicine
+
 
 # 🌎 Tabla de países de América Latina con facturación electrónica habilitada 📊💻
 
