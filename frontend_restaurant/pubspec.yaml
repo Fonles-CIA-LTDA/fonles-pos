@@ -41,6 +41,7 @@ dependencies:
   process_run: ^0.12.5+2
   process_runner: ^4.1.2
   window_manager: ^0.3.1
+  awesome_dialog: ^3.0.2
   
 
 dev_dependencies:
@@ -89,6 +90,8 @@ flutter:
         - asset: assets/Montserrat-VariableFont_wght.ttf
         - asset: assets/Montserrat-Italic-VariableFont_wght.ttf
           style: italic
+        - asset: assets/Montserrat-Bold.ttf
+
   # fonts:
   #   - family: Schyler
   #     fonts:

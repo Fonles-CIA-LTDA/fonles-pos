@@ -1,3 +1,4 @@
+import 'package:frontend/config/exports.dart';
 import 'package:process_run/shell.dart';
 import 'package:process_runner/process_runner.dart';
 
@@ -9,8 +10,8 @@ class Server {
     try {
       var stopServer = await shell.run('''
     # Status server
-    pm2 list | grep server_fl_R''');
-      return stopServer.outText.contains("server_fl_R");
+    pm2 list | grep ${config.serverName}''');
+      return stopServer.outText.contains("${config.serverName}");
     } catch (e) {
       print(e);
       return false;
@@ -22,7 +23,7 @@ class Server {
     var temporalPathList = result.stdout.toString().split("/");
     temporalPathList.removeLast();
     String path = temporalPathList.join("/");
-    return "$path/backend";
+    return "$path/${config.serverName}";
   }
 
   startServer() async {
@@ -32,7 +33,7 @@ class Server {
         var path = await getBackendPath();
         var startServer = await shell.run('''
     # Start server
-    pm2 start --name server_fl_R --cwd $path "npm run develop" ''');
+    pm2 start --name ${config.serverName} --cwd $path "npm run develop" ''');
       } catch (e) {
         print(e);
       }
@@ -43,7 +44,7 @@ class Server {
     try {
       var stopServer = await shell.run('''
     # Stop server
-    pm2 delete server_fl_R''');
+    pm2 delete ${config.serverName}''');
     } catch (e) {
       print(e);
     }

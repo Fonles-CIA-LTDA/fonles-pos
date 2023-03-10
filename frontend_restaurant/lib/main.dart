@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:frontend/modals/modal_close_app.dart';
 import 'package:frontend/providers/general_provider.dart';
@@ -8,15 +10,16 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:window_manager/window_manager.dart';
 
-late SharedPreferences sharedPreferencesGeneral;
+late SharedPreferences? sharedPreferencesGeneral;
 Server server = Server();
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
   await windowManager.ensureInitialized();
 
   WindowOptions windowOptions = const WindowOptions(
-    minimumSize: Size(800, 600),
+    minimumSize: Size(900, 700),
     center: true,
     backgroundColor: Colors.transparent,
     skipTaskbar: false,
